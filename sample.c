@@ -1,4 +1,5 @@
 #include<stdio.h>
+
 int main(){
     printf("Gitコマンド一覧\n");
     printf("git init : リポジトリを作成\n");
@@ -6,5 +7,7 @@ int main(){
     printf("git add : ファイルのステージ\n");
     printf("git commit : コミットする\n");
     printf("git log : コミット履歴を見る\n");
+    printf("git add : ファイルをステージ\n");
+    branch_name();
     return 0;
 }
